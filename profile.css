@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px;
+    font-size: 1.2rem;
+    background-color: gray;
+    margin-bottom: 50px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: white;
+    font-size: 1.3rem;
+    transition: 0.2s;
+}
+#AboutMe{
+    margin-bottom: 200px;
+}
+.boxaboutme{
+    
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+#para{
+    position: relative;
+    top: 50px;
+    width: 800px;
+}
+#heading1 ,.education{
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+.education{
+    margin-bottom: 90px;
+}
+.skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+#skills{
+    margin-bottom: 120px;
+}
+.Skills , .Projects{
+    height: 250px;
+    width: 300px;
+    border: 1px solid rgb(234, 227, 227);
+    padding: 20px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    padding-top: 20px;
+    list-style: disc;
+    margin-bottom: 10px;
+}
+#heading3{
+    text-align: center;
+    margin-bottom: 50px;
+}
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.contactme{
+    padding: 10px;
+    margin-top: 50px;
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: rgba(225, 207, 207, 0.35) 0px 5px 15px;
+     */
+     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    margin-bottom: 20px;
+}
+#contactme a{
+    margin-left: 20px;
+}
+#heading4{
+    text-align: center;
+    margin-top: 50px;
+}
+#para1{
+    text-align: center;
+}
+#para2{
+    text-align: center;
+    margin-top: 80px;
+}
